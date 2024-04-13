@@ -4,82 +4,114 @@
 <head>
   <link rel="stylesheet" href="stylesheet.css">
   <h1 style="font-size:40px;font-family:'courier new'; font-weight: lighter;">Skyla Welsch Portfolio</h1>
-  <h2 style="font-size:30px;font-family:'courier new'; font-weight: lighter;">Photography<h2>
+  <!--h2 style="font-size:30px;font-family:'courier new'; font-weight: lighter;">Photography<h2-->
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="java.js"></script>
 </head>
 
+<!-- Tab links -->
 <body>
-  <img src="image/jaypeak.jpg" alt="jay peak" width="450" height="300">
-  <img src="image/jaypeak2.jpg" alt="jay peak2" width="450" height="300">
-  <img src="image/jaypeak4.jpg" alt="jay peak4" width="450" height="300">
-  <img src="image/jaypeak5.jpg" alt="jay peak5" width="450" height="300">
-  <img src="image/seal.jpg" alt="seal" width="450" height="300">
-  <img src="image/andrew.jpg" alt="andrew" width="450" height="300">
-  <img src="image/mtksunset.jpg" alt="mtk sunset" width="450" height="300">
-  <img src="image/mtksunset2.jpg" alt="mtk sunset 2" width="450" height="300">
-  <img src="image/mtksunset3.jpg" alt="mtk sunset 3" width="450" height="300">
-  <img src="image/mtksunset4.jpg" alt="mtk sunset 4" width="450" height="300">
-  <img src="image/mtksunset5.jpg" alt="mtk sunset 5" width="450" height="300">
-  <img src="image/radartower.jpg" alt="brandy" width="450" height="300">
-  <img src="image/kangaro.jpg" alt="kangaro" width="450" height="300">
-  <img src="image/koala.jpg" alt="koala" width="450" height="300">
-  <img src="image/kangaro2.jpg" alt="kangaro 2" width="450" height="300">
-  <img src="image/wesley.jpg" alt="wesley" width="450" height="300">
-  <img src="image/dogs.jpg" alt="dogs" width="450" height="300">
-  <img src="image/stuey.jpg" alt="stuey" width="450" height="300">
-  <img src="image/brandy.jpg" alt="brandy" width="450" height="300">
-  <img src="image/brandy2.jpg" alt="brandy 2" width="450" height="300">
-  <img src="image/hawaiimt.jpg" alt="hawaii mt" width="450" height="300">
-  <img src="image/girlscosta1.jpeg" alt="girls costa 1" width="450" height="300">
-  <img src="image/girlscosta2.jpeg" alt="girls costa 2" width="450" height="300">
-  <img src="image/olivia.jpeg" alt="olivia" width="450" height="300">
-  <img src="image/chelshawaii.jpeg" alt="chels hawaii" width="450" height="300">
-  <img src="image/hawaiiocean.jpeg" alt="hawaii ocean" width="450" height="300">
-  <img src="image/chelshiking.jpeg" alt="chels hiking" width="450" height="300">
-  <img src="image/surfboardfin.jpeg" alt="surfboard fin" width="450" height="300">
-  <img src="image/gecko.jpeg" alt="gecko" width="450" height="300">
-  <img src="image/flower.jpeg" alt="flower" width="450" height="300">
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+      <button class="tablinks" onclick="openCity(event, 'Jay Peak')">Jay Peak</button>
+      <button class="tablinks" onclick="openCity(event, 'Montauk')">Montauk</button>
+      <button class="tablinks" onclick="openCity(event, 'Hawaii')">Hawaii</button>
+      <button class="tablinks" onclick="openCity(event, 'Australia')">Australia</button>
+      <button class="tablinks" onclick="openCity(event, 'Costa Rica')">Costa Rica</button>
+      <button class="tablinks" onclick="openCity(event, 'Graphic Design')">Graphic Design</button>
+      <button class="tablinks" onclick="openCity(event, 'Contact')">Contact</button>
+      <button class="tablinks" onclick="openCity(event, 'About')">About</button>
+    </div>
 
-<h1 style="font-size:30px;font-family:'courier new'; font-weight: lighter;">Graphic Design</h1>
-
-  <h2 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">History of Surfing Book: Adobe InDesign</h2>
-
-  <img src="image/surfbookcover1.jpg" alt="surf book cover 1" width="250" height="275">
-  <img src="image/surfbookcover.jpg" alt="surf book cover" width="375" height="275">
-  <img src="image/surfbookpage.jpg" alt="surf book page" width="375" height="275">
-  <img src="image/surfbookpage1.jpg" alt="surf book page 1" width="375" height="275">
-  <img src="image/surfbookpage2.jpg" alt="surf book page 2" width="375" height="275">
-  <img src="image/surfbookpage3.jpg" alt="surf book page 3" width="375" height="275">
-  <img src="image/surfbookpage4.jpg" alt="surf book page 4" width="375" height="275">
-
-  <h3 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Photography Logo: Adobe Illustrator</h3>
-  <img src="image/logo.jpg" alt="logo" width="375" height="275">
-
-  <h4 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Chocolate Bar Logo: Adobe Illustrator & Photoshop</h4>
-  <img src="image/choclogo.jpg" alt="choc logo" width="375" height="275">
-
-  <h5 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Short Story Book Cover: Adobe Illustrator & Photoshop</h5>
-  <img src="image/bookcover.jpg" alt="bookcover" width="375" height="275">
+<!-- Tab content -->
+    <div id="Home" class="tabcontent">
+      <img src="image/mainpage.jpeg" alt="mainpage" width="700" height="500">
+    </div>
 
 
-  <h6 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">School Flyer: Adobe Illustrator & Photoshop</h6>
-  <img src="image/poster.jpg" alt="poster" width="250" height="350">
+    <div id="Jay Peak" class="tabcontent">
+      <img src="image/jaypeak.jpg" alt="jay peak" width="450" height="300">
+      <img src="image/jaypeak2.jpg" alt="jay peak2" width="450" height="300">
+      <img src="image/jaypeak4.jpg" alt="jay peak4" width="450" height="300">
+      <img src="image/jaypeak5.jpg" alt="jay peak5" width="450" height="300">
+    </div>
 
-  <!--h7 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Restaurant Menu: Adobe Illustrator</h7>
-  <img src="image/pointmenus1.jpg" alt="point menus 1" width="250" height="350"-->
+    <div id="Montauk" class="tabcontent">
+      <img src="image/seal.jpg" alt="seal" width="450" height="300">
+      <img src="image/andrew.jpg" alt="andrew" width="450" height="300">
+      <img src="image/mtksunset.jpg" alt="mtk sunset" width="450" height="300">
+      <img src="image/mtksunset2.jpg" alt="mtk sunset 2" width="450" height="300">
+      <img src="image/mtksunset3.jpg" alt="mtk sunset 3" width="450" height="300">
+      <img src="image/mtksunset4.jpg" alt="mtk sunset 4" width="450" height="300">
+      <img src="image/mtksunset5.jpg" alt="mtk sunset 5" width="450" height="300">
+      <img src="image/radartower.jpg" alt="brandy" width="450" height="300">
+      <img src="image/wesley.jpg" alt="wesley" width="450" height="300">
+      <img src="image/dogs.jpg" alt="dogs" width="450" height="300">
+      <img src="image/stuey.jpg" alt="stuey" width="450" height="300">
+      <img src="image/brandy.jpg" alt="brandy" width="450" height="300">
+      <img src="image/brandy2.jpg" alt="brandy 2" width="450" height="300">
+    </div>
+
+    <div id="Hawaii" class="tabcontent">
+      <img src="image/hawaiimt.jpg" alt="hawaii mt" width="450" height="300">
+      <img src="image/chelshawaii.jpeg" alt="chels hawaii" width="450" height="300">
+      <img src="image/hawaiiocean.jpeg" alt="hawaii ocean" width="450" height="300">
+      <img src="image/chelshiking.jpeg" alt="chels hiking" width="450" height="300">
+      <img src="image/surfboardfin.jpeg" alt="surfboard fin" width="450" height="300">
+      <img src="image/gecko.jpeg" alt="gecko" width="450" height="300">
+      <img src="image/flower.jpeg" alt="flower" width="450" height="300">
+      <img src="image/chicken.jpeg" alt="chicken" width="450" height="300">
+    </div>
+
+    <div id="Australia" class="tabcontent">
+      <img src="image/kangaro.jpg" alt="kangaro" width="450" height="300">
+      <img src="image/koala.jpg" alt="koala" width="450" height="300">
+      <img src="image/kangaro2.jpg" alt="kangaro 2" width="450" height="300">
+    </div>
+
+    <div id="Costa Rica" class="tabcontent">
+      <img src="image/girlscosta1.jpeg" alt="girls costa 1" width="450" height="300">
+      <img src="image/girlscosta2.jpeg" alt="girls costa 2" width="450" height="300">
+      <img src="image/olivia.jpeg" alt="olivia" width="450" height="300">
+    </div>
+
+    <div id="Graphic Design" class="tabcontent">
+      <h2 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">History of Surfing Book: Adobe InDesign</h2>
+      <img src="image/surfbookcover1.jpg" alt="surf book cover 1" width="250" height="275">
+      <img src="image/surfbookcover.jpg" alt="surf book cover" width="375" height="275">
+      <img src="image/surfbookpage.jpg" alt="surf book page" width="375" height="275">
+      <img src="image/surfbookpage1.jpg" alt="surf book page 1" width="375" height="275">
+      <img src="image/surfbookpage2.jpg" alt="surf book page 2" width="375" height="275">
+      <img src="image/surfbookpage3.jpg" alt="surf book page 3" width="375" height="275">
+      <img src="image/surfbookpage4.jpg" alt="surf book page 4" width="375" height="275">
+
+      <h3 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Photography Logo: Adobe Illustrator</h3>
+      <img src="image/logo.jpg" alt="logo" width="375" height="275">
+
+      <h4 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Chocolate Bar Logo: Adobe Illustrator & Photoshop</h4>
+      <img src="image/choclogo.jpg" alt="choc logo" width="375" height="275">
+
+      <h5 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">Short Story Book Cover: Adobe Illustrator & Photoshop</h5>
+      <img src="image/bookcover.jpg" alt="bookcover" width="375" height="275">
+
+      <h6 style="font-size:20px;font-family:'courier new'; font-weight: lighter;">School Flyer: Adobe Illustrator & Photoshop</h6>
+      <img src="image/poster.jpg" alt="poster" width="250" height="350">
+    </div>
+
+    <div id="Contact" class="tabcontent">
+      <h1 style="font-size:25px;font-family:'courier new'; font-weight: lighter;">Contact</h1>
+      <p><a href="https://www.instagram.com/skywelsch/">Instagram</a></p>
+      <p><a href="mailto: skylawelsch@gmail.com">E-mail</a></p>
+      <p><a href="tel:+15168179220">Phone</a><p>
+      <p><a href="https://www.tiktok.com/@thepoint_mtk?is_from_webapp=1&sender_device=pc">TikTok</a></p>
+    </div>
+
+    <div id="About" class="tabcontent">
+      <p>My Name is Skyla Welsch. I live in a small beach town on Long Island, New York. I went to the University of North Carolina Wilmington and studied film and digital arts. I'm furthering my education at Adelphi University for a masters in art education. I do free lance graphic design and phtography in my free time. I'm currently building this website with the programming languages HTML, CSS, and JavaScript.</p>
+    </div>
+
 
 </body>
-
-
-<body>
-  <h1 style="font-size:25px;font-family:'courier new'; font-weight: lighter;">Contact</h1>
-  <p><a href="https://www.instagram.com/skywelsch/">Instagram</a></p>
-  <p><a href="mailto: skylawelsch@gmail.com">E-mail</a></p>
-  <p><a href="tel:+15168179220">Phone</a><p>
-  <p><a href="https://www.tiktok.com/@thepoint_mtk?is_from_webapp=1&sender_device=pc">TikTok</a></p>
-</body>
-
-
 
 </html>
